@@ -1,0 +1,171 @@
+{
+    "asset": {
+        "version": "2.0",
+        "generator": "Open Asset Import Library (assimp v5.0.cd42b995)"
+    },
+    "extensionsUsed": [
+        "FB_ngon_encoding"
+    ],
+    "accessors": [
+        {
+            "bufferView": 0,
+            "byteOffset": 0,
+            "componentType": 5126,
+            "count": 36530,
+            "type": "VEC3",
+            "max": [
+                6.277599811553955,
+                38.627899169921878,
+                37.61259841918945
+            ],
+            "min": [
+                -6.277599811553955,
+                -22.255399703979493,
+                0.0052999998442828659
+            ]
+        },
+        {
+            "bufferView": 1,
+            "byteOffset": 0,
+            "componentType": 5126,
+            "count": 36530,
+            "type": "VEC3",
+            "max": [
+                0.9999986886978149,
+                0.9999727010726929,
+                1.0
+            ],
+            "min": [
+                -0.9999986886978149,
+                -0.9999960660934448,
+                -0.9999998807907105
+            ]
+        },
+        {
+            "bufferView": 2,
+            "byteOffset": 0,
+            "componentType": 5126,
+            "count": 36530,
+            "type": "VEC2",
+            "max": [
+                0.9843000173568726,
+                0.9688000082969666
+            ],
+            "min": [
+                0.006800000090152025,
+                0.015799999237060548
+            ]
+        },
+        {
+            "bufferView": 3,
+            "byteOffset": 0,
+            "componentType": 5125,
+            "count": 211728,
+            "type": "SCALAR",
+            "max": [
+                36529
+            ],
+            "min": [
+                0
+            ]
+        }
+    ],
+    "buffers": [
+        {
+            "byteLength": 2015872,
+            "uri": "result.bin"
+        }
+    ],
+    "bufferViews": [
+        {
+            "buffer": 0,
+            "byteOffset": 0,
+            "byteLength": 438360,
+            "target": 34962
+        },
+        {
+            "buffer": 0,
+            "byteOffset": 438360,
+            "byteLength": 438360,
+            "target": 34962
+        },
+        {
+            "buffer": 0,
+            "byteOffset": 876720,
+            "byteLength": 292240,
+            "target": 34962
+        },
+        {
+            "buffer": 0,
+            "byteOffset": 1168960,
+            "byteLength": 846912,
+            "target": 34963
+        }
+    ],
+    "materials": [
+        {
+            "name": "DefaultMaterial",
+            "pbrMetallicRoughness": {
+                "baseColorFactor": [
+                    0.6000000238418579,
+                    0.6000000238418579,
+                    0.6000000238418579,
+                    1.0
+                ],
+                "metallicFactor": 0.0
+            }
+        },
+        {
+            "name": "Cat",
+            "pbrMetallicRoughness": {
+                "baseColorFactor": [
+                    0.6000000238418579,
+                    0.6000000238418579,
+                    0.6000000238418579,
+                    1.0
+                ],
+                "metallicFactor": 0.0
+            }
+        }
+    ],
+    "meshes": [
+        {
+            "name": "Cat",
+            "primitives": [
+                {
+                    "extensions": {
+                        "FB_ngon_encoding": {}
+                    },
+                    "mode": 4,
+                    "material": 1,
+                    "indices": 3,
+                    "attributes": {
+                        "POSITION": 0,
+                        "NORMAL": 1,
+                        "TEXCOORD_0": 2
+                    }
+                }
+            ]
+        }
+    ],
+    "nodes": [
+        {
+            "name": "input.obj",
+            "children": [
+                1
+            ]
+        },
+        {
+            "name": "Cat",
+            "mesh": 0
+        }
+    ],
+    "scenes": [
+        {
+            "nodes": [
+                0
+            ]
+        }
+    ],
+    "scene": 0
+}
